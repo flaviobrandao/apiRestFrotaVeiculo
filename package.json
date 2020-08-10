@@ -1,0 +1,23 @@
+{
+  "name": "api_rest_mv",
+  "version": "1.0.0",
+  "description": "echo \"# apiRestFrotaVeiculo\" >> README.md\r git init\r git add README.md\r git commit -m \"first commit\"\r git remote add origin https://github.com/flaviobrandao/apiRestFrotaVeiculo.git\r git push -u origin master",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flaviobrandao/apiRestFrotaVeiculo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flaviobrandao/apiRestFrotaVeiculo/issues"
+  },
+  "homepage": "https://github.com/flaviobrandao/apiRestFrotaVeiculo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
